@@ -1,4 +1,4 @@
-from operations import add, subtract
+from operations import add, divide
 
 num1 = 10
 num2 = 5
@@ -8,3 +8,7 @@ result_subtract = subtract(num1, num2)
 
 print("Addition:", result_add)
 print("Subtraction:", result_subtract)
+result_divide = divide(num1, num2)
+
+print("Addition:", result_add)
+print("Division:", result_divide)
